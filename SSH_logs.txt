@@ -1,0 +1,113 @@
+Feb 17 19:42:44 kali systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Feb 17 19:42:44 kali sshd[3720]: Server listening on 0.0.0.0 port 22.
+Feb 17 19:42:44 kali sshd[3720]: Server listening on :: port 22.
+Feb 17 19:42:44 kali systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Feb 17 19:44:23 kali sshd-session[6115]: Invalid user fakeuser from ::1 port 34628
+Feb 17 19:44:35 kali sshd-session[6115]: pam_unix(sshd:auth): check pass; user unknown
+Feb 17 19:44:35 kali sshd-session[6115]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1
+Feb 17 19:44:35 kali sshd-session[6115]: pam_winbind(sshd:auth): getting password (0x00000388)
+Feb 17 19:44:35 kali sshd-session[6115]: pam_winbind(sshd:auth): pam_get_item returned a password
+Feb 17 19:44:37 kali sshd-session[6115]: Failed password for invalid user fakeuser from ::1 port 34628 ssh2
+Feb 17 19:44:45 kali sshd-session[6115]: pam_unix(sshd:auth): check pass; user unknown
+Feb 17 19:44:45 kali sshd-session[6115]: pam_winbind(sshd:auth): getting password (0x00000388)
+Feb 17 19:44:45 kali sshd-session[6115]: pam_winbind(sshd:auth): pam_get_item returned a password
+Feb 17 19:44:46 kali sshd-session[6115]: Failed password for invalid user fakeuser from ::1 port 34628 ssh2
+Feb 17 19:44:49 kali sshd-session[6115]: pam_unix(sshd:auth): check pass; user unknown
+Feb 17 19:44:49 kali sshd-session[6115]: pam_winbind(sshd:auth): getting password (0x00000388)
+Feb 17 19:44:49 kali sshd-session[6115]: pam_winbind(sshd:auth): pam_get_item returned a password
+Feb 17 19:44:51 kali sshd-session[6115]: Failed password for invalid user fakeuser from ::1 port 34628 ssh2
+Feb 17 19:44:53 kali sshd-session[6115]: Connection closed by invalid user fakeuser ::1 port 34628 [preauth]
+Feb 17 19:44:53 kali sshd-session[6115]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1
+Feb 17 19:45:27 kali sshd-session[6606]: Invalid user fakeuser from ::1 port 50224
+Feb 17 19:45:32 kali sshd-session[6606]: pam_unix(sshd:auth): check pass; user unknown
+Feb 17 19:45:32 kali sshd-session[6606]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1
+Feb 17 19:45:32 kali sshd-session[6606]: pam_winbind(sshd:auth): getting password (0x00000388)
+Feb 17 19:45:32 kali sshd-session[6606]: pam_winbind(sshd:auth): pam_get_item returned a password
+Feb 17 19:45:35 kali sshd-session[6606]: Failed password for invalid user fakeuser from ::1 port 50224 ssh2
+Feb 17 19:45:38 kali sshd-session[6606]: pam_unix(sshd:auth): check pass; user unknown
+Feb 17 19:45:38 kali sshd-session[6606]: pam_winbind(sshd:auth): getting password (0x00000388)
+Feb 17 19:45:38 kali sshd-session[6606]: pam_winbind(sshd:auth): pam_get_item returned a password
+Feb 17 19:45:40 kali sshd-session[6606]: Failed password for invalid user fakeuser from ::1 port 50224 ssh2
+Feb 17 19:45:41 kali sshd-session[6606]: pam_unix(sshd:auth): check pass; user unknown
+Feb 17 19:45:41 kali sshd-session[6606]: pam_winbind(sshd:auth): getting password (0x00000388)
+Feb 17 19:45:41 kali sshd-session[6606]: pam_winbind(sshd:auth): pam_get_item returned a password
+Feb 17 19:45:43 kali sshd-session[6606]: Failed password for invalid user fakeuser from ::1 port 50224 ssh2
+Feb 17 19:45:45 kali sshd-session[6606]: Connection closed by invalid user fakeuser ::1 port 50224 [preauth]
+Feb 17 19:45:45 kali sshd-session[6606]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1
+Feb 17 19:45:49 kali sshd-session[6737]: Invalid user fakeuser from ::1 port 35796
+Feb 17 19:45:50 kali sshd-session[6737]: pam_unix(sshd:auth): check pass; user unknown
+Feb 17 19:45:50 kali sshd-session[6737]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1
+Feb 17 19:45:50 kali sshd-session[6737]: pam_winbind(sshd:auth): getting password (0x00000388)
+Feb 17 19:45:50 kali sshd-session[6737]: pam_winbind(sshd:auth): pam_get_item returned a password
+Feb 17 19:45:52 kali sshd-session[6737]: Failed password for invalid user fakeuser from ::1 port 35796 ssh2
+Feb 17 19:45:55 kali sshd-session[6737]: pam_unix(sshd:auth): check pass; user unknown
+Feb 17 19:45:55 kali sshd-session[6737]: pam_winbind(sshd:auth): getting password (0x00000388)
+Feb 17 19:45:55 kali sshd-session[6737]: pam_winbind(sshd:auth): pam_get_item returned a password
+Feb 17 19:45:57 kali sshd-session[6737]: Failed password for invalid user fakeuser from ::1 port 35796 ssh2
+Feb 17 19:45:59 kali sshd-session[6737]: pam_unix(sshd:auth): check pass; user unknown
+Feb 17 19:45:59 kali sshd-session[6737]: pam_winbind(sshd:auth): getting password (0x00000388)
+Feb 17 19:45:59 kali sshd-session[6737]: pam_winbind(sshd:auth): pam_get_item returned a password
+Feb 17 19:46:01 kali sshd-session[6737]: Failed password for invalid user fakeuser from ::1 port 35796 ssh2
+Feb 17 19:46:03 kali sshd-session[6737]: Connection closed by invalid user fakeuser ::1 port 35796 [preauth]
+Feb 17 19:46:03 kali sshd-session[6737]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1
+Feb 17 19:46:08 kali sshd-session[6872]: Invalid user fakeuser from ::1 port 60668
+Feb 17 19:46:09 kali sshd-session[6872]: pam_unix(sshd:auth): check pass; user unknown
+Feb 17 19:46:09 kali sshd-session[6872]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1
+Feb 17 19:46:09 kali sshd-session[6872]: pam_winbind(sshd:auth): getting password (0x00000388)
+Feb 17 19:46:09 kali sshd-session[6872]: pam_winbind(sshd:auth): pam_get_item returned a password
+Feb 17 19:46:12 kali sshd-session[6872]: Failed password for invalid user fakeuser from ::1 port 60668 ssh2
+Feb 17 19:46:14 kali sshd-session[6872]: pam_unix(sshd:auth): check pass; user unknown
+Feb 17 19:46:14 kali sshd-session[6872]: pam_winbind(sshd:auth): getting password (0x00000388)
+Feb 17 19:46:14 kali sshd-session[6872]: pam_winbind(sshd:auth): pam_get_item returned a password
+Feb 17 19:46:17 kali sshd-session[6872]: Failed password for invalid user fakeuser from ::1 port 60668 ssh2
+Feb 17 19:46:19 kali sshd-session[6872]: pam_unix(sshd:auth): check pass; user unknown
+Feb 17 19:46:19 kali sshd-session[6872]: pam_winbind(sshd:auth): getting password (0x00000388)
+Feb 17 19:46:19 kali sshd-session[6872]: pam_winbind(sshd:auth): pam_get_item returned a password
+Feb 17 19:46:22 kali sshd-session[6872]: Failed password for invalid user fakeuser from ::1 port 60668 ssh2
+Feb 17 19:46:23 kali sshd-session[6872]: Connection closed by invalid user fakeuser ::1 port 60668 [preauth]
+Feb 17 19:46:23 kali sshd-session[6872]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1
+Feb 17 22:05:20 kali sshd-session[16761]: Invalid user fakeuser from 127.0.0.1 port 43372
+Feb 17 22:05:22 kali sshd-session[16761]: pam_unix(sshd:auth): check pass; user unknown
+Feb 17 22:05:22 kali sshd-session[16761]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Feb 17 22:05:22 kali sshd-session[16761]: pam_winbind(sshd:auth): getting password (0x00000388)
+Feb 17 22:05:22 kali sshd-session[16761]: pam_winbind(sshd:auth): pam_get_item returned a password
+Feb 17 22:05:24 kali sshd-session[16761]: Failed password for invalid user fakeuser from 127.0.0.1 port 43372 ssh2
+Feb 17 22:05:28 kali sshd-session[16761]: pam_unix(sshd:auth): check pass; user unknown
+Feb 17 22:05:28 kali sshd-session[16761]: pam_winbind(sshd:auth): getting password (0x00000388)
+Feb 17 22:05:28 kali sshd-session[16761]: pam_winbind(sshd:auth): pam_get_item returned a password
+Feb 17 22:05:31 kali sshd-session[16761]: Failed password for invalid user fakeuser from 127.0.0.1 port 43372 ssh2
+Feb 17 22:05:34 kali sshd-session[16761]: pam_unix(sshd:auth): check pass; user unknown
+Feb 17 22:05:34 kali sshd-session[16761]: pam_winbind(sshd:auth): getting password (0x00000388)
+Feb 17 22:05:34 kali sshd-session[16761]: pam_winbind(sshd:auth): pam_get_item returned a password
+Feb 17 22:05:36 kali sshd-session[16761]: Failed password for invalid user fakeuser from 127.0.0.1 port 43372 ssh2
+Feb 17 22:05:37 kali sshd-session[16761]: Connection closed by invalid user fakeuser 127.0.0.1 port 43372 [preauth]
+Feb 17 22:05:37 kali sshd-session[16761]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Feb 17 22:05:40 kali sshd-session[16916]: Invalid user fakeuser from 127.0.0.1 port 56940
+Feb 17 22:05:42 kali sshd-session[16916]: pam_unix(sshd:auth): check pass; user unknown
+Feb 17 22:05:42 kali sshd-session[16916]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Feb 17 22:05:42 kali sshd-session[16916]: pam_winbind(sshd:auth): getting password (0x00000388)
+Feb 17 22:05:42 kali sshd-session[16916]: pam_winbind(sshd:auth): pam_get_item returned a password
+Feb 17 22:05:44 kali sshd-session[16916]: Failed password for invalid user fakeuser from 127.0.0.1 port 56940 ssh2
+Feb 17 22:05:46 kali sshd-session[16916]: pam_unix(sshd:auth): check pass; user unknown
+Feb 17 22:05:46 kali sshd-session[16916]: pam_winbind(sshd:auth): getting password (0x00000388)
+Feb 17 22:05:46 kali sshd-session[16916]: pam_winbind(sshd:auth): pam_get_item returned a password
+Feb 17 22:05:48 kali sshd-session[16916]: Failed password for invalid user fakeuser from 127.0.0.1 port 56940 ssh2
+Feb 17 22:05:50 kali sshd-session[16916]: Failed password for invalid user fakeuser from 127.0.0.1 port 56940 ssh2
+Feb 17 22:05:50 kali sshd-session[16916]: Connection closed by invalid user fakeuser 127.0.0.1 port 56940 [preauth]
+Feb 17 22:05:50 kali sshd-session[16916]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Feb 17 22:05:54 kali sshd-session[17005]: Invalid user fakeuser from 127.0.0.1 port 36676
+Feb 17 22:05:55 kali sshd-session[17005]: pam_unix(sshd:auth): check pass; user unknown
+Feb 17 22:05:55 kali sshd-session[17005]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Feb 17 22:05:55 kali sshd-session[17005]: pam_winbind(sshd:auth): getting password (0x00000388)
+Feb 17 22:05:55 kali sshd-session[17005]: pam_winbind(sshd:auth): pam_get_item returned a password
+Feb 17 22:05:57 kali sshd-session[17005]: Failed password for invalid user fakeuser from 127.0.0.1 port 36676 ssh2
+Feb 17 22:06:07 kali sshd-session[17005]: pam_unix(sshd:auth): check pass; user unknown
+Feb 17 22:06:07 kali sshd-session[17005]: pam_winbind(sshd:auth): getting password (0x00000388)
+Feb 17 22:06:07 kali sshd-session[17005]: pam_winbind(sshd:auth): pam_get_item returned a password
+Feb 17 22:06:09 kali sshd-session[17005]: Failed password for invalid user fakeuser from 127.0.0.1 port 36676 ssh2
+Feb 17 22:06:14 kali sshd-session[17005]: pam_unix(sshd:auth): check pass; user unknown
+Feb 17 22:06:14 kali sshd-session[17005]: pam_winbind(sshd:auth): getting password (0x00000388)
+Feb 17 22:06:14 kali sshd-session[17005]: pam_winbind(sshd:auth): pam_get_item returned a password
+Feb 17 22:06:15 kali sshd-session[17005]: Failed password for invalid user fakeuser from 127.0.0.1 port 36676 ssh2
+Feb 17 22:06:16 kali sshd-session[17005]: Connection closed by invalid user fakeuser 127.0.0.1 port 36676 [preauth]
+Feb 17 22:06:16 kali sshd-session[17005]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
