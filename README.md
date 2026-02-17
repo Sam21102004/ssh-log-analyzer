@@ -29,7 +29,7 @@ ssh-log-analyzer/
 
 1. Clone the Repository
 
--> git clone https://github.com/yourusername/ssh-log-analyzer.git
+-> git clone [https://github.com/yourusername/ssh-log-analyzer.git](https://github.com/Sam21102004/ssh-log-analyzer.git)
 
 2. Go to Project Folder
 
